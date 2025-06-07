@@ -19,7 +19,7 @@ Funcionalidades (simuladas)
 -Navegação entre páginas com React Router
 
 -Estilo feito com SCSS e uso de mixins pra responsividade, botões, layout, etc.
---------------------------------------------------------------------
+____________________________________________________________
 Como rodar
 
 -Clone o repositório
