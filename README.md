@@ -21,8 +21,8 @@ Estilo feito com SCSS e uso de mixins pra responsividade, botões, layout, etc.
 Como rodar
 Clone o repositório
 
-git clone https://github.com/EduardoGolze/SigaFrontend
 Instale as dependências
+git clone https://github.com/EduardoGolze/SigaFrontend
 
 npm install
 Inicie o projeto
