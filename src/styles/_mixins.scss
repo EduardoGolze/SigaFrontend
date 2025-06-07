@@ -1,0 +1,28 @@
+@mixin flex-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+@mixin aplica-tema($tema) {
+  @if $tema == "impressão" {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  @if $tema == "escuro" {
+    background-color: #0d0e0f;
+    color: #d1d7e0;
+    border-color: #d1d7e0;
+  }
+}
+@mixin icone-tema($tema) {
+  @if $tema == "escuro" {
+    filter: invert(1);
+  }
+}
+@mixin remove-cores($tema) {
+  @if $tema == "impressão" {
+    background-color: white;
+    color: black;
+  }
+}

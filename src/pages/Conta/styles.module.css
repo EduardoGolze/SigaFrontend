@@ -1,0 +1,27 @@
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.form {
+  display: grid;
+  flex-direction: column;
+  gap: 12px;
+}
+.savebtn {
+  height: 30px;
+  width: 80px;
+  border-radius: 30px;
+  background-color: green;
+  color: aliceblue;
+  font-size: medium;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 100px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.savebtn:hover {
+  background-color: white;
+  color: #1e8f2f;
+  transform: rotateY(180deg);
+}

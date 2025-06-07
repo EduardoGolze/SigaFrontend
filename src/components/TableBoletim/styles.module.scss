@@ -1,0 +1,13 @@
+@use "../../styles/variables" as *;
+
+.tabela {
+  display: flex;
+  flex-direction: column;
+  border-collapse: collapse;
+}
+.tabela th,
+.tabela td {
+  padding: 4px 16px;
+  text-align: center;
+  border: $thin-border;
+}

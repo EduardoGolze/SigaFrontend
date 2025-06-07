@@ -1,0 +1,28 @@
+@use "../../styles/variables" as *;
+
+.btn {
+  width: 100px;
+  height: 100px;
+  border-radius: $border-r-sm;
+  background-color: $bg-jogo-da-velha-btn-color;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: $tamanho-bg-jogo-da-velha-default;
+  border: $btn-jogo-da-velha-border;
+}
+.btn:hover {
+  background-size: $tamanho-bg-jogo-da-velha-hover;
+}
+.backgroundX {
+  background-image: url("../../assets/img/cachorro.png");
+}
+.backgroundO {
+  background-image: url("../../assets/img/avatar.jpg");
+}
+.hoverX:hover {
+  background-image: url("../../assets/img/cachorro.png");
+}
+.hoverO:hover {
+  background-image: url("../../assets/img/avatar.jpg");
+}

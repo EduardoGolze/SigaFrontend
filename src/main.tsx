@@ -1,10 +1,16 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+import ReactDOM from "react-dom/client";
+import styles from "./index.module.scss";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+const root = ReactDOM.createRoot(
+  document.getElementById("root") as HTMLElement
+);
+// basename="/sigaReact"
+root.render(
+  <BrowserRouter>
+    <div className={styles.page}>
+      <App />
+    </div>
+  </BrowserRouter>
+);

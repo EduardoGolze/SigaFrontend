@@ -1,0 +1,64 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.section {
+  display: flex;
+  height: 100%;
+  gap: 15px;
+  padding: 15px;
+}
+.section nav {
+  width: 25vw;
+  border: black solid 1px;
+  border-radius: 20px;
+  padding: 12px 0;
+  text-align: center;
+}
+.section nav a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.section main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: black solid 1px;
+  border-radius: 20px;
+  text-align: start;
+  padding: 0 32px;
+}
+.section main form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+}
+.aside {
+  width: 25vw;
+  border: black solid 1px;
+  border-radius: 20px;
+  text-align: start;
+  padding: 0 32px;
+}
+.label {
+  margin-right: 8px;
+}
+.submitBtn {
+  margin: 0 auto;
+  margin-top: auto;
+  margin-bottom: 28px;
+  background-color: #1e8f2f;
+  padding: 8px 48px;
+  color: white;
+  border-radius: 8px;
+  border: solid 1px gray;
+  font-size: 16px;
+  font-weight: bold;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.submitBtn:hover {
+  background-color: white;
+  color: #1e8f2f;
+  transform: rotateY(180deg);
+}

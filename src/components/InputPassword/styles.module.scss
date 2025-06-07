@@ -1,0 +1,21 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container input {
+  padding: 5px;
+  border-radius: 10px;
+  border-color: gray;
+}
+.container label {
+  margin-right: 8px;
+}
+
+.icon {
+  height: 24px;
+  width: 32px;
+}

@@ -1,0 +1,35 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+body.escuro {
+  @include aplica-tema("escuro");
+
+  a {
+    @include aplica-tema("escuro");
+  }
+
+  .eye {
+    @include icone-tema("escuro");
+  }
+}
+
+bodY.impressão {
+  @include aplica-tema("impressão");
+
+  a {
+    @include aplica-tema("impressão");
+  }
+  a:hover {
+    @include aplica-tema("escuro");
+  }
+
+  header {
+    @include aplica-tema("impressão");
+  }
+  button {
+    @include aplica-tema("impressão");
+  }
+  button:hover {
+    @include aplica-tema("escuro");
+  }
+}

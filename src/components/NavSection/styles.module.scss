@@ -1,0 +1,88 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.navSection {
+  display: flex;
+  height: 100%;
+  gap: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+.navSection nav {
+  width: 25vw;
+  border: $thin-border;
+  border-radius: 20px;
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.navSection main {
+  display: flex;
+  flex-direction: column;
+  border: $thin-border;
+  width: 100%;
+  border-radius: 20px;
+  text-align: start;
+  padding: 16px 32px;
+}
+.navSection aside {
+  width: 15vw;
+  border: black solid 1px;
+  border-radius: 20px;
+  text-align: start;
+  padding: 0 32px;
+}
+
+.label {
+  margin-right: 8px;
+}
+.submitBtn {
+  margin: 0 auto;
+  margin-top: auto;
+  margin-bottom: 28px;
+  background-color: $primary-color;
+  padding: 8px 48px;
+  color: $secondary-color;
+  border-radius: 8px;
+  border: solid 1px gray;
+  font-size: 16px;
+  font-weight: bold;
+}
+.submitBtn:hover {
+  background-color: $secondary-color;
+  color: $primary-color;
+}
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.link_list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+.link_list hr {
+  width: 90%;
+}
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: $thirdy-color;
+  width: 100%;
+  padding: 4px 0px;
+  border-radius: 5px;
+}
+.link:hover {
+  background-color: $thirdy-color;
+  color: $secondary-color;
+}
+.conta_link {
+  display: flex;
+  width: 50%;
+}
